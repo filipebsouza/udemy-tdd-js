@@ -22,7 +22,7 @@ const Calculadora = {
         if (isNaN(numero1) || isNaN(numero2)) {
             return 0;
         }
-        
+
         if (numero2 == 0)
             return "Erro";
 
@@ -30,7 +30,11 @@ const Calculadora = {
     },
 
     multiplicar: (numero1, numero2) => {
-        return 0;
+        if (isNaN(numero1) || isNaN(numero2)) {
+            return 0;
+        }
+        
+        return numero1 * numero2;
     }
 }
 
