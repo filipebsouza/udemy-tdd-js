@@ -18,3 +18,6 @@
     npm install --save-dev browserify
     npm install --save-dev watchify
     npm install --save-dev karma-browserify
+jasmine examples
+
+[![Build Status](https://travis-ci.org/filipebsouza/udemy-tdd-js.svg?branch=master)](https://travis-ci.org/filipebsouza/udemy-tdd-js)
