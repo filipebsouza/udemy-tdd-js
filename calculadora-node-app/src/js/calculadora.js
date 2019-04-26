@@ -9,12 +9,19 @@ const Calculadora = {
 
         return numero1 + numero2;
     },
+
     subtrair: (numero1, numero2) => {
-        return 0;
+        if (isNaN(numero1) || isNaN(numero2)) {
+            return 0;
+        }
+
+        return numero1 - numero2;
     },
+
     dividir: (numero1, numero2) => {
         return 0;
     },
+
     multiplicar: (numero1, numero2) => {
         return 0;
     }
